@@ -1,6 +1,6 @@
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-local win = DiscordLib:Window("discord library")
+local win = DiscordLib:Window("Discord Hub")
 
 local serv = win:Server("Preview", "")
 
@@ -69,7 +69,9 @@ bnds:Bind("Kill bind", Enum.KeyCode.RightShift, function()
 print("Killed everyone!")
 end)
 
-serv:Channel("by dawid#7205")
-
+serv:Channel("Credits")
+lbls:Label("Made by NoMercy Team :)) ")
+lbls:Label("Devilish W")
+lbls:Label("Papyrk W")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
