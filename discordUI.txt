@@ -6,11 +6,11 @@ local serv = win:Server("Preview", "")
 
 local serv = win:Server("Credits", "")
 
-serv:Channel("Credits")
+local lbls = serv:Channel("Credits")
+
 lbls:Credits("Made by NoMercy Team :)) ")
 lbls:Credits("Devilish W")
 lbls:Credits("Papyrk W")
-
 
 local serv = win:Server("Main", "")
 
