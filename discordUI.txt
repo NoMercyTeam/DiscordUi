@@ -4,6 +4,14 @@ local win = DiscordLib:Window("Discord Hub")
 
 local serv = win:Server("Preview", "")
 
+local serv = win:Server("Credits", "")
+
+local serv = win:Server("Main", "")
+
+local serv = win:Server("Key", "")
+
+local serv = win:Server("Test", "")
+
 local btns = serv:Channel("Buttons")
 
 btns:Button("Kill all", function()
