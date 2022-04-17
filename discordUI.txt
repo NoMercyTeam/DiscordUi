@@ -70,8 +70,8 @@ print("Killed everyone!")
 end)
 
 serv:Channel("Credits")
-lbls:Label("Made by NoMercy Team :)) ")
-lbls:Label("Devilish W")
-lbls:Label("Papyrk W")
+lbls:Credits("Made by NoMercy Team :)) ")
+lbls:Credits("Devilish W")
+lbls:Credits("Papyrk W")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
