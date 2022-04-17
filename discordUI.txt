@@ -4,7 +4,7 @@ local win = DiscordLib:Window("Discord Hub")
 
 local serv = win:Server("Preview", "")
 
-local serv = win:Server("Credits", "")
+local lbls = serv:Server("Credits", "")
 
 local lbls = serv:Channel("Credits")
 
@@ -12,11 +12,11 @@ lbls:Credits("Made by NoMercy Team :)) ")
 lbls:Credits("Devilish W")
 lbls:Credits("Papyrk W")
 
-local serv = win:Server("Main", "")
+local lbls = serv:Server("Main", "")
 
-local serv = win:Server("Key", "")
+local lbls = serv:Server("Key", "")
 
-local serv = win:Server("Test", "")
+local lbls = serv:Server("Test", "")
 
 local btns = serv:Channel("Buttons")
 
@@ -83,9 +83,5 @@ bnds:Bind("Kill bind", Enum.KeyCode.RightShift, function()
 print("Killed everyone!")
 end)
 
-serv:Channel("Credits")
-lbls:Credits("Made by NoMercy Team :)) ")
-lbls:Credits("Devilish W")
-lbls:Credits("Papyrk W")
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
